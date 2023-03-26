@@ -16,8 +16,6 @@ export async function GET(request) {
   if (subject === "" && classNumber === "")
   return NextResponse.json([])
   var filteredClasses = classes.filter(c => {
-    console.log(subject)
-    console.log(classNumber)
 
     if (!subject && c.courseNumber.startsWith(classNumber)) {
       return true;
