@@ -1,0 +1,53 @@
+.ClassCardContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.ClassCardIndentContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.ClassCardIndent {
+  width: 3px;
+  height: 100%;
+  background-color: var(--border-color);
+  border-radius: 10px;
+}
+
+.ClassCard {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap:10px;
+  border-radius: 10px;
+}
+
+.ClassCardEntry {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.ClassCardButtons {
+  display: flex;
+  flex-grow: 1;
+  justify-content: right;
+  align-items: center;
+}
+
+.ClassCardAddButton {
+  all: unset;
+  height: 25px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.ClassCardAddButton:hover {
+  cursor: pointer;
+  background-color: var(--border-color);
+  transition: background-color 0.1s;
+}

@@ -14,7 +14,7 @@ async function getClassbyID(subject, number) {
   .then(response => response.json())
 }
 
-export default function Search() {
+export default function Search({ onAdd }) {
   const [results, setResults] = useState({})
   const [searchBy, setSearchBy] = useState('CourseID')
   const [courseSubject, setCourseSubject] = useState('COP')
@@ -64,6 +64,7 @@ export default function Search() {
           title={key} amount={result.length} 
           allClasses={result} 
           onClick={() => handleSearchResultClick(key)}
+          onAdd={onAdd}
           selected={selectedClass === key}
         />
       )

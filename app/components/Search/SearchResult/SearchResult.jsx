@@ -1,23 +1,24 @@
 import Image from 'next/image'
-import ClassCard from '../../ClassClard/ClassCard'
+import ClassCard from '../../ClassCard/ClassCard'
 import TextLG from '../../Text/TextLG'
 import TextSM from '../../Text/TextSM'
 import styles from './styles.module.css'
+import { clsx } from 'clsx';
 
-export default function SearchResult({id, title, amount, selected, allClasses, onClick}) {
+export default function SearchResult({id, title, amount, selected, allClasses, onClick, onAdd}) {
 
   const renderAllClasses = () => {
     if (!selected) return []
 
     return allClasses.map(c => {
-      return <ClassCard classObj={c} />
+      return <ClassCard classObj={c} onAdd={onAdd} />
     });
 
   }
 
   return (
-    <div className={styles.SearchResultContainer} onClick={onClick}>
-      <div className={styles.SearchResult}>
+    <div className={styles.SearchResultContainer}>
+      <div className={styles.SearchResult} onClick={onClick}>
 
         <div className={styles.SearchResultInfo}>
           <TextLG>{id}</TextLG>
@@ -27,7 +28,7 @@ export default function SearchResult({id, title, amount, selected, allClasses, o
           <div className={styles.SearchResultAmountContainer}>
             <TextSM>{amount}</TextSM>
           </div>
-          <Image src="/arrowRight.svg" width="25" height="25" />
+          <Image src="/arrowRight.svg" width="25" height="25" className={clsx({ [styles.SearchResultChevronRotated]: selected})} />
         </div>  
       </div>
 
