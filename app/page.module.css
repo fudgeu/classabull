@@ -1,18 +1,18 @@
-.main {
+.Main {
   display: flex;
   flex-direction: column;
   background-color: #111111;
   min-height: 100vh;
 }
 
-.navbar {
+.Navbar {
   display: flex;
   height: 75px;
   align-items: center;
   padding-left: 2rem
 }
 
-.content {
+.Content {
   display: flex;
   flex-grow: 1;
   flex-direction: row;
@@ -21,23 +21,16 @@
   gap: 20px;
 }
 
-.search {
+.Schedule {
   display: flex;
-  background-color: black;
-  width: 23%;
-  border-radius: 20px;
-}
-
-.schedule {
-  display: flex;
-  background-color: black;
   flex-grow: 1;
   border-radius: 20px;
 }
 
-.list {
+.ListCard {
   display: flex;
-  background-color: black;
-  width: 23%;
+  flex-direction: column;
+  background-color: #111111;
   border-radius: 20px;
+  width: 100%;
 }
