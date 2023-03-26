@@ -1,0 +1,1435 @@
+{
+    "classes": [
+        {
+            "subject": "COP",
+            "courseNumber": "2030",
+            "section": "001",
+            "title": "Programming Concepts",
+            "crn": "82735",
+            "instructor": "John J Sullivan",
+            "instructionMethod": "All Online",
+            "campus": "Off-campus - Tampa",
+            "room": "N/A",
+            "seatCapacity": "50",
+            "schedule": [
+                {
+                    "days": ["N/A"],
+                    "startTime": "N/A",
+                    "endTime": "N/A"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "COP",
+            "courseNumber": "2030",
+            "section": "001",
+            "title": "Programming Concepts",
+            "crn": "83974",
+            "instructor": "Hemant Ananth Pendharkar",
+            "instructionMethod": "All Online",
+            "campus": "Off-campus - St. Petersburg",
+            "room": "N/A",
+            "seatCapacity": "30",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "5:00PM",
+                    "endTime": "6:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "COP",
+            "courseNumber": "3514",
+            "section": "002",
+            "title": "Program Design",
+            "crn": "86585",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CWY 107",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "9:30AM",
+                    "endTime": "10:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "COP",
+            "courseNumber": "3514",
+            "section": "003",
+            "title": "Program Design",
+            "crn": "86587",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CWY 109",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "9:30AM",
+                    "endTime": "10:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "CDA",
+            "courseNumber": "3103",
+            "section": "001",
+            "title": "Computer Organization",
+            "crn": "86612",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "BSN 1201",
+            "seatCapacity": "80",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "12:30PM",
+                    "endTime": "1:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "CDA",
+            "courseNumber": "3103",
+            "section": "002",
+            "title": "Computer Organization",
+            "crn": "86615",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "BSN 1201",
+            "seatCapacity": "80",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "12:30PM",
+                    "endTime": "1:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "CDA",
+            "courseNumber": "3201",
+            "section": "001",
+            "title": "Computer Logic and Design",
+            "crn": "86462",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 103",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "3:30PM",
+                    "endTime": "4:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "CDA",
+            "courseNumber": "3201",
+            "section": "002",
+            "title": "Computer Logic and Design",
+            "crn": "86518",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CWY 107",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "12:30PM",
+                    "endTime": "1:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "CDA",
+            "courseNumber": "3201",
+            "section": "003",
+            "title": "Computer Logic and Design",
+            "crn": "86522",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "BEH 104",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "12:30PM",
+                    "endTime": "1:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "CDA",
+            "courseNumber": "4205",
+            "section": "001",
+            "title": "Computer Architecture",
+            "crn": "86578",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 103",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "12:30PM",
+                    "endTime": "1:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "CDA",
+            "courseNumber": "4205",
+            "section": "002",
+            "title": "Computer Architecture",
+            "crn": "86579",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 103",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "3:30PM",
+                    "endTime": "4:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+ 
+        {
+            "subject": "COT",
+            "courseNumber": "3100",
+            "section": "001",
+            "title": "Introduction to Discrete Structures",
+            "crn": "86266",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CMC 141",
+            "seatCapacity": "150",
+            "schedule": [
+                {
+                    "days": ["M", "W", "F"],
+                    "startTime": "3:30PM",
+                    "endTime": "4:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "COT",
+            "courseNumber": "4210",
+            "section": "001",
+            "title": "Automata Theory & Formal Languages",
+            "crn": "86568",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 101",
+            "seatCapacity": "90",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "5:00PM",
+                    "endTime": "6:15PM"
+                }
+            ],
+            "tags": [
+                "cs_elective"
+            ]
+        },
+
+        {
+            "subject": "COT",
+            "courseNumber": "4400",
+            "section": "001",
+            "title": "Analysis of Algorithms",
+            "crn": "86564",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 101",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "2:00PM",
+                    "endTime": "3:15PM"
+                }
+            ],
+            "tags": [
+                
+            ]
+        },
+
+        {
+            "subject": "COT",
+            "courseNumber": "4400",
+            "section": "002",
+            "title": "Analysis of Algorithms",
+            "crn": "86566",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 103",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "5:00PM",
+                    "endTime": "6:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3443",
+            "section": "001",
+            "title": "Probability and Statistics for Engineers",
+            "crn": "85176",
+            "instructor": "Walter Alejandro Silva Sotillo",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "BEH 104",
+            "seatCapacity": "100",
+            "schedule": [
+                {
+                    "days": ["T", "R", "F"],
+                    "startTime": "9:30AM",
+                    "endTime": "10:45AM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3443",
+            "section": "002",
+            "title": "Probability and Statistics for Engineers",
+            "crn": "85178",
+            "instructor": "Mingyang Li",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CIS 1048",
+            "seatCapacity": "75",
+            "schedule": [
+                {
+                    "days": ["T", "R", "F"],
+                    "startTime": "11:00AM",
+                    "endTime": "12:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+    
+        {
+            "subject": "EGN",
+            "courseNumber": "3443",
+            "section": "003",
+            "title": "Probability and Statistics for Engineers",
+            "crn": "85177",
+            "instructor": "Walter Alejandro Silva Sotillo",
+            "instructionMethod": "Primarily DL",
+            "campus": "Tampa",
+            "room": "N/A",
+            "seatCapacity": "60",
+            "schedule": [
+                {
+                    "days": ["T", "R", "F"],
+                    "startTime": "9:30AM",
+                    "endTime": "10:45AM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "4450",
+            "section": "001",
+            "title": "Introduction to Linear Systems",
+            "crn": "85192",
+            "instructor": "Jamie M Chilton",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "BEH 104",
+            "seatCapacity": "150",
+            "schedule": [
+                {
+                    "days": ["M","W"],
+                    "startTime": "2:00PM",
+                    "endTime": "3:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3443",
+            "section": "701",
+            "title": "Introduction to Linear Systems",
+            "crn": "85194",
+            "instructor": "Jamie M Chilton",
+            "instructionMethod": "Primarily DL",
+            "campus": "Tampa",
+            "room": "N/A",
+            "seatCapacity": "30",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "2:00PM",
+                    "endTime": "3:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3246",
+            "section": "001",
+            "title": "Communication for Engineers",
+            "crn": "83250",
+            "instructor": "Michael L Shuman",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CPR 352",
+            "seatCapacity": "19",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "2:00PM",
+                    "endTime": "3:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3246",
+            "section": "002",
+            "title": "Communication for Engineers",
+            "crn": "83251",
+            "instructor": "Michael L Shuman",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "BSN 1310",
+            "seatCapacity": "19",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "3:30PM",
+                    "endTime": "4:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3246",
+            "section": "003",
+            "title": "Communication for Engineers",
+            "crn": "83252",
+            "instructor": "Elizabeth M Charles",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CPR 352",
+            "seatCapacity": "19",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "9:30AM",
+                    "endTime": "10:45AM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3246",
+            "section": "004",
+            "title": "Communication for Engineers",
+            "crn": "83253",
+            "instructor": "Weena Mckenzie",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CPR 351",
+            "seatCapacity": "19",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "9:30AM",
+                    "endTime": "10:45AM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3246",
+            "section": "005",
+            "title": "Communication for Engineers",
+            "crn": "83254",
+            "instructor": "Weena Mckenzie",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CPR 461",
+            "seatCapacity": "19",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "11:00AM",
+                    "endTime": "12:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3246",
+            "section": "008",
+            "title": "Communication for Engineers",
+            "crn": "83256",
+            "instructor": "Ryan Cheng",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CPR 464",
+            "seatCapacity": "19",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "11:00AM",
+                    "endTime": "12:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3246",
+            "section": "009",
+            "title": "Communication for Engineers",
+            "crn": "83257",
+            "instructor": "Ryan Cheng",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CPR 351",
+            "seatCapacity": "19",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "12:30PM",
+                    "endTime": "1:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3246",
+            "section": "010",
+            "title": "Communication for Engineers",
+            "crn": "83064",
+            "instructor": "Elizabeth M Charles",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CPR 347",
+            "seatCapacity": "19",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "11:00AM",
+                    "endTime": "12:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3246",
+            "section": "011",
+            "title": "Communication for Engineers",
+            "crn": "83065",
+            "instructor": "Elizabeth M Charles",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CIS 1016",
+            "seatCapacity": "19",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "12:30PM",
+                    "endTime": "1:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3246",
+            "section": "700",
+            "title": "Communication for Engineers",
+            "crn": "83060",
+            "instructor": "Nancy Blanche Barr",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "N/A",
+            "seatCapacity": "19",
+            "schedule": [
+                {
+                    "days": ["N/A"],
+                    "startTime": "N/A",
+                    "endTime": "N/A"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3246",
+            "section": "703",
+            "title": "Communication for Engineers",
+            "crn": "83063",
+            "instructor": "Ryan Cheng",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "N/A",
+            "seatCapacity": "19",
+            "schedule": [
+                {
+                    "days": ["N/A"],
+                    "startTime": "N/A",
+                    "endTime": "N/A"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "EGN",
+            "courseNumber": "3246",
+            "section": "704",
+            "title": "Communication for Engineers",
+            "crn": "83065",
+            "instructor": "Tiffanie Hope Kelley",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "N/A",
+            "seatCapacity": "19",
+            "schedule": [
+                {
+                    "days": ["N/A"],
+                    "startTime": "N/A",
+                    "endTime": "N/A"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "PHY",
+            "courseNumber": "2048",
+            "section": "001",
+            "title": "General Physics I - Calculus Based",
+            "crn": "80200",
+            "instructor": "TBA",
+            "instructionMethod": "All Online",
+            "campus": "Tampa",
+            "room": "N/A",
+            "seatCapacity": "50",
+            "schedule": [
+                {
+                    "days": ["N/A"],
+                    "startTime": "N/A",
+                    "endTime": "N/A"
+                }
+            ],
+            "tags": [
+
+            ]
+        },        
+
+        {
+            "subject": "PHY",
+            "courseNumber": "2048",
+            "section": "002",
+            "title": "General Physics I - Calculus Based",
+            "crn": "80778",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "ISA 1051",
+            "seatCapacity": "250",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "11:00AM",
+                    "endTime": "12:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "PHY",
+            "courseNumber": "2048",
+            "section": "003",
+            "title": "General Physics I - Calculus Based",
+            "crn": "80779",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "ISA 1051",
+            "seatCapacity": "250",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "3:30PM",
+                    "endTime": "4:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "PHY",
+            "courseNumber": "2048",
+            "section": "901",
+            "title": "General Physics I - Calculus Based",
+            "crn": "82831",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "ISA 1051",
+            "seatCapacity": "250",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "6:30PM",
+                    "endTime": "7:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "PHY",
+            "courseNumber": "2049",
+            "section": "001",
+            "title": "General Physics II - Calculus Based",
+            "crn": "80202",
+            "instructor": "TBA",
+            "instructionMethod": "All Online",
+            "campus": "Tampa",
+            "room": "N/A",
+            "seatCapacity": "50",
+            "schedule": [
+                {
+                    "days": ["N/A"],
+                    "startTime": "N/A",
+                    "endTime": "N/A"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "PHY",
+            "courseNumber": "2049",
+            "section": "002",
+            "title": "General Physics II - Calculus Based",
+            "crn": "80948",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "ISA 1051",
+            "seatCapacity": "250",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "2:00PM",
+                    "endTime": "3:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "PHY",
+            "courseNumber": "2049",
+            "section": "003",
+            "title": "General Physics II - Calculus Based",
+            "crn": "80951",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "ISA 1051",
+            "seatCapacity": "250",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "9:30AM",
+                    "endTime": "10:45AM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "COP",
+            "courseNumber": "4600",
+            "section": "001",
+            "title": "Operating Systems",
+            "crn": "86577",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 101",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "2:00PM",
+                    "endTime": "3:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "COP",
+            "courseNumber": "4600",
+            "section": "002",
+            "title": "Operating Systems",
+            "crn": "86580",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CWY 109",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "11:00AM",
+                    "endTime": "12:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "CNT",
+            "courseNumber": "4419",
+            "section": "001",
+            "title": "Secure Coding",
+            "crn": "86594",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CPR 115",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "5:00PM",
+                    "endTime": "6:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "CNT",
+            "courseNumber": "4419",
+            "section": "002",
+            "title": "Secure Coding",
+            "crn": "86595",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "PCD 1147",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "2:00PM",
+                    "endTime": "3:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "CIS",
+            "courseNumber": "4250",
+            "section": "001",
+            "title": "Ethical Issues & Professional Conduct",
+            "crn": "86631",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "ENC 1002",
+            "seatCapacity": "58",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "11:00AM",
+                    "endTime": "12:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "CEN",
+            "courseNumber": "4020",
+            "section": "001",
+            "title": "Software Engineering",
+            "crn": "86599",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CIS 1048",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "5:00PM",
+                    "endTime": "6:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "CEN",
+            "courseNumber": "4020",
+            "section": "002",
+            "title": "Software Engineering",
+            "crn": "86598",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 103",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "8:00AM",
+                    "endTime": "9:15AM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "MAC",
+            "courseNumber": "2283",
+            "section": "001",
+            "title": "Engineering Calculus III",
+            "crn": "86338",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 102",
+            "seatCapacity": "55",
+            "schedule": [
+                {
+                    "days": ["M", "W", "F"],
+                    "startTime": "9:30AM",
+                    "endTime": "10:45AM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "MAC",
+            "courseNumber": "2283",
+            "section": "002",
+            "title": "Engineering Calculus III",
+            "crn": "86346",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 101A",
+            "seatCapacity": "55",
+            "schedule": [
+                {
+                    "days": ["M", "W", "F"],
+                    "startTime": "11:00AM",
+                    "endTime": "12:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "MAC",
+            "courseNumber": "2283",
+            "section": "003",
+            "title": "Engineering Calculus III",
+            "crn": "86348",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 102",
+            "seatCapacity": "55",
+            "schedule": [
+                {
+                    "days": ["M", "W", "F"],
+                    "startTime": "2:00PM",
+                    "endTime": "3:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "MAC",
+            "courseNumber": "2283",
+            "section": "004",
+            "title": "Engineering Calculus III",
+            "crn": "86311",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 101A",
+            "seatCapacity": "55",
+            "schedule": [
+                {
+                    "days": ["T", "R", "F"],
+                    "startTime": "3:30PM",
+                    "endTime": "4:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "MAC",
+            "courseNumber": "2283",
+            "section": "901",
+            "title": "Engineering Calculus III",
+            "crn": "86312",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 101A",
+            "seatCapacity": "55",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "5:00PM",
+                    "endTime": "6:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "MAC",
+            "courseNumber": "2283",
+            "section": "902",
+            "title": "Engineering Calculus III",
+            "crn": "86336",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CIS 1045",
+            "seatCapacity": "55",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "5:00PM",
+                    "endTime": "6:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "MAC",
+            "courseNumber": "2282",
+            "section": "001",
+            "title": "Engineering Calculus II",
+            "crn": "86306",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "MHA 126BC",
+            "seatCapacity": "55",
+            "schedule": [
+                {
+                    "days": ["M", "W", "F"],
+                    "startTime": "11:00AM",
+                    "endTime": "12:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "MAC",
+            "courseNumber": "2282",
+            "section": "002",
+            "title": "Engineering Calculus II",
+            "crn": "86307",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 101A",
+            "seatCapacity": "55",
+            "schedule": [
+                {
+                    "days": ["T", "R", "F"],
+                    "startTime": "12:30PM",
+                    "endTime": "1:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "MAC",
+            "courseNumber": "2282",
+            "section": "003",
+            "title": "Engineering Calculus II",
+            "crn": "86308",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "TBA",
+            "seatCapacity": "55",
+            "schedule": [
+                {
+                    "days": ["T", "R", "F"],
+                    "startTime": "2:00PM",
+                    "endTime": "3:15PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "MAC",
+            "courseNumber": "2282",
+            "section": "901",
+            "title": "Engineering Calculus II",
+            "crn": "86304",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "EDU 411",
+            "seatCapacity": "55",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "5:00PM",
+                    "endTime": "6:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "MAC",
+            "courseNumber": "2282",
+            "section": "902",
+            "title": "Engineering Calculus II",
+            "crn": "86305",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CMC 141",
+            "seatCapacity": "55",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "7:00PM",
+                    "endTime": "8:45PM"
+                }
+            ],
+            "tags": [
+
+            ]
+        },
+
+        {
+            "subject": "CAP",
+            "courseNumber": "4662",
+            "section": "001",
+            "title": "Introduction to Robotics",
+            "crn": "86565",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 217",
+            "seatCapacity": "50",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "3:30PM",
+                    "endTime": "4:45PM"
+                }
+            ],
+            "tags": [
+                "cs_elective",
+                "ce_elective"
+            ]
+        },
+
+        {
+            "subject": "CAP",
+            "courseNumber": "5625",
+            "section": "001",
+            "title": "Introduction to Artificial Intelligence",
+            "crn": "86412",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 217",
+            "seatCapacity": "60",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "11:00AM",
+                    "endTime": "12:15PM"
+                }
+            ],
+            "tags": [
+                "cs_elective",
+                "ce_elective"
+            ]
+        },
+
+        {
+            "subject": "COP",
+            "courseNumber": "4710",
+            "section": "001",
+            "title": "Database Design",
+            "crn": "86630",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CHE 103",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "5:00PM",
+                    "endTime": "6:15PM"
+                }
+            ],
+            "tags": [
+                "cs_elective",
+                "ce_elective"
+            ]
+        },
+
+        {
+            "subject": "CDA",
+            "courseNumber": "4213",
+            "section": "001",
+            "title": "CMOS-VLSI Design",
+            "crn": "86575",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "CIS 1048",
+            "seatCapacity": "95",
+            "schedule": [
+                {
+                    "days": ["M", "W"],
+                    "startTime": "3:30PM",
+                    "endTime": "4:45PM"
+                }
+            ],
+            "tags": [
+                "cs_elective",
+                "ce_elective"
+            ]
+        },
+
+        {
+            "subject": "CDA",
+            "courseNumber": "4321",
+            "section": "001",
+            "title": "Cryptographic Hardware and Embedded Systems",
+            "crn": "86621",
+            "instructor": "TBA",
+            "instructionMethod": "Classroom",
+            "campus": "Tampa",
+            "room": "ENB 118",
+            "seatCapacity": "30",
+            "schedule": [
+                {
+                    "days": ["T", "R"],
+                    "startTime": "11:00AM",
+                    "endTime": "12:15PM"
+                }
+            ],
+            "tags": [
+                "cs_elective",
+                "ce_elective"
+            ]
+        }
+    ]
+}
+
