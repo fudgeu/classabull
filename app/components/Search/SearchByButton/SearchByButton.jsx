@@ -6,7 +6,6 @@ import TextSM from '../../Text/TextSM';
 
 export default function SearchByButton({selected, onSelect, label}) {
 
-    console.log(`test: ${label}`)
     return (
         <button type="button" onClick={onSelect} className={clsx({
             [styles.SearchByButton]: true,

@@ -21,7 +21,7 @@ async function getClassesByCRNs(crns) {
   let classes = []
   for (var crnIndex in crns) {
     let crn = crns[crnIndex]
-    let classObj = await fetch(`http://localhost:3000/api/getClassByCRN?crn=${crn}`)
+    let classObj = await fetch(`/api/getClassByCRN?crn=${crn}`)
       .then(response => response.json())
     classes.push(classObj)
   }

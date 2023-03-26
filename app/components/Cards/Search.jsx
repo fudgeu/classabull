@@ -11,12 +11,12 @@ import TextM from '../Text/TextM'
 const inter = Inter({ subsets: ['latin'] })
 
 async function getClassByID(subject, number) {
-  return await fetch(`http://localhost:3000/api/getClassByID?subj=${subject}&num=${number}`)
+  return await fetch(`/api/getClassByID?subj=${subject}&num=${number}`)
   .then(response => response.json())
 }
 
 async function getClassByTitle(title) {
-  return await fetch(`http://localhost:3000/api/getClassByTitle?title=${title}`)
+  return await fetch(`/api/getClassByTitle?title=${title}`)
   .then(response => response.json())
 }
 
@@ -121,8 +121,6 @@ export default function Search({ onAdd }) {
 
     return Object.keys(results).map(key => {
       const result = results[key]
-      console.log(key)
-      console.log(result)
       return (
         <SearchResult 
           id={`${result[0].subject} ${result[0].courseNumber}`} 

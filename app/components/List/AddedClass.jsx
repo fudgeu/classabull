@@ -52,6 +52,7 @@ export default function AddedClass({ classObj, onDelete }) {
             <ClassCardEntry iconSrc="/school.svg" label={classObj.instructionMethod} />
             <ClassCardEntry iconSrc="/location.svg" label={classObj.room} />
             <ClassCardEntry iconSrc="/date.svg" label={generateScheduleText(classObj.schedule)} />
+            <ClassCardEntry iconSrc="/number.svg" label={`CRN: ${classObj.crn}`} />
           </div>
         </div>
       </div>
