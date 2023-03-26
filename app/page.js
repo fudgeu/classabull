@@ -16,6 +16,7 @@ async function test() {
     .then(data => {})
 }
 
+
 export default async function Home() {
   await test();
   return (
