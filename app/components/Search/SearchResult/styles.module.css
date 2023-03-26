@@ -1,4 +1,37 @@
 .SearchResult {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%
+}
+
+.SearchResult:hover {
+    cursor: pointer;
+}
+
+.SearchResultInfo {
     flex-direction: column;
+}
+
+.SearchResultChevron {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.SearchResultAmountContainer {
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    background-color: var(--border-color)
+}
+
+.SearchResultClassList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
 }

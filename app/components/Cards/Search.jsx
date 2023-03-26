@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react'
 import { Inter } from 'next/font/google'
 import styles from "./styles.module.css"
 import TextLG from "../Text/TextLG"
-import TextSM from '../Text/TextSM'
 import SearchByButton from '../Search/SearchByButton/SearchByButton'
 import SearchResult from '../Search/SearchResult/SearchResult'
 
@@ -20,6 +19,8 @@ export default function Search() {
   const [searchBy, setSearchBy] = useState('CourseID')
   const [courseSubject, setCourseSubject] = useState('COP')
   const [courseNum, setCourseNum] = useState('')
+
+  const [selectedClass, setSelectedClass] = useState('')
 
   useEffect(() => {
     async function fetchData() {
@@ -44,13 +45,27 @@ export default function Search() {
     setCourseNum(event.target.value)
   }
 
+  const handleSearchResultClick = (title) => {
+    if (title === selectedClass) {
+      setSelectedClass('')
+      return;
+    }
+    setSelectedClass(title)
+  }
+
   const renderResults = () => {
     return Object.keys(results).map(key => {
       const result = results[key]
       console.log(key)
       console.log(result)
       return (
-        <SearchResult id={`${result[0].subject} ${result[0].courseNumber}`} title={key} amount="2" />
+        <SearchResult 
+          id={`${result[0].subject} ${result[0].courseNumber}`} 
+          title={key} amount={result.length} 
+          allClasses={result} 
+          onClick={() => handleSearchResultClick(key)}
+          selected={selectedClass === key}
+        />
       )
     })
   }

@@ -58,7 +58,7 @@
   flex-direction: column;
   gap: 25px;
   padding-top: 10px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 
