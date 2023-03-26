@@ -1,3 +1,13 @@
+.AddedClassParent {
+  display: flex;
+  flex-direction: row;
+}
+
+.AddedClassContainer {
+  display: flex;
+  flex-direction: column;
+}
+
 .AddedClass {
   display: flex;
   flex-direction: row;
@@ -40,4 +50,29 @@
   padding: 10px;
   gap:10px;
   border-radius: 10px;
+}
+
+.DeleteButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-grow: 1;
+}
+
+.DeleteButton {
+  all: unset;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.DeleteButton:hover {
+  cursor: pointer;
+  background-color: var(--border-color);
+  transition: background-color 0.1s;
 }

@@ -59,12 +59,19 @@
   gap: 25px;
   padding-top: 10px;
   overflow-y: auto;
+  flex-grow: 1;
 }
-
 
 .ListCard {
   display: flex;
   background-color: #111111;
   border-radius: 20px;
   width: 100%;
+}
+
+.ListNoClassesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1
 }

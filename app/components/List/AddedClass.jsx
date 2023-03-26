@@ -5,7 +5,7 @@ import TextM from "../Text/TextM"
 import TextSM from "../Text/TextSM"
 import styles from "./styles.module.css"
 
-export default function AddedClass({ classObj }) {
+export default function AddedClass({ classObj, onDelete }) {
 
   const generateScheduleText = (scheduleObj) => {
     if (scheduleObj[0].startTime === "N/A")
@@ -32,27 +32,36 @@ export default function AddedClass({ classObj }) {
   }
 
   return (
-    <div className={styles.AddedClassContainer}>
-      <div className={styles.AddedClass}>
+    <div className={styles.AddedClassParent}>
+      <div className={styles.AddedClassContainer}>
+        <div className={styles.AddedClass}>
 
-        <div className={styles.AddedClassInfo}>
-          <TextLG>{`${classObj.subject} ${classObj.courseNumber}`}</TextLG>
-          <TextSM>{classObj.title}</TextSM>
+          <div className={styles.AddedClassInfo}>
+            <TextLG>{`${classObj.subject} ${classObj.courseNumber}`}</TextLG>
+            <TextSM>{classObj.title}</TextSM>
+          </div>
+        </div>
+
+        <div className={styles.ExtraInfoContainer} >
+          <div className={styles.ExtraInfoIndentContainer}>
+            <div className={styles.ExtraInfoIndent} />
+          </div>
+          <div className={styles.ExtraInfo}>
+            <TextM>{`Section ${classObj.section}`}</TextM>
+            <ClassCardEntry iconSrc="/person.svg" label={classObj.instructor} />
+            <ClassCardEntry iconSrc="/school.svg" label={classObj.instructionMethod} />
+            <ClassCardEntry iconSrc="/location.svg" label={classObj.room} />
+            <ClassCardEntry iconSrc="/date.svg" label={generateScheduleText(classObj.schedule)} />
+          </div>
         </div>
       </div>
 
-      <div className={styles.ExtraInfoContainer} >
-        <div className={styles.ExtraInfoIndentContainer}>
-          <div className={styles.ExtraInfoIndent} />
-        </div>
-        <div className={styles.ExtraInfo}>
-          <TextM>{`Section ${classObj.section}`}</TextM>
-          <ClassCardEntry iconSrc="/person.svg" label={classObj.instructor} />
-          <ClassCardEntry iconSrc="/school.svg" label={classObj.instructionMethod} />
-          <ClassCardEntry iconSrc="/location.svg" label={classObj.room} />
-          <ClassCardEntry iconSrc="/date.svg" label={generateScheduleText(classObj.schedule)} />
-        </div>
+      <div className={styles.DeleteButtonContainer}>
+        <button type="button" className={styles.DeleteButton} onClick={() => onDelete(classObj.crn)}>
+          <Image src="/trash.svg" width="18" height="18" />
+        </button>
       </div>
+
     </div>
   )
 }

@@ -35,7 +35,7 @@ export default function ClassCard({ classObj, onAdd }) {
         <div className={styles.ClassCardIndent} />
       </div>
       <div className={styles.ClassCard}>
-        <TextM>{`Section ${classObj.section}`}</TextM>
+        <TextM><b>{`Section ${classObj.section}`}</b></TextM>
         <ClassCardEntry iconSrc="/person.svg" label={classObj.instructor} />
         <ClassCardEntry iconSrc="/school.svg" label={classObj.instructionMethod} />
         <ClassCardEntry iconSrc="/location.svg" label={classObj.room} />

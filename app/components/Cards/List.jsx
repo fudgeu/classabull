@@ -16,7 +16,7 @@ async function getClassesByCRNs(crns) {
   return classes
 }
 
-export default function List({ addedClasses }) {
+export default function List({ addedClasses, onDelete }) {
 
   const [ classes, setClasses ] = useState([])
 
@@ -29,8 +29,16 @@ export default function List({ addedClasses }) {
   }, [addedClasses])
 
   const renderClasses = () => {
+    if (classes.length === 0) {
+        return (
+          <div className={styles.ListNoClassesContainer}>
+            <TextM><i>No classes added</i></TextM>
+          </div>
+        )
+    }
+
     return classes.map(classObj => {
-      return <AddedClass classObj={classObj} />
+      return <AddedClass classObj={classObj} onDelete={onDelete} />
     })
   }
 

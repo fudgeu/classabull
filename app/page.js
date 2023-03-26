@@ -5,6 +5,7 @@ import styles from './page.module.css'
 import Search from './components/Cards/Search'
 import List from './components/Cards/List'
 import { useState } from 'react'
+import Schedule from './components/Schedule/Schedule'
 
 export const revalidate = 1
 
@@ -16,23 +17,33 @@ export default function Home() {
   const [addedClasses, setAddedClasses] = useState([])
 
   const onAdd = (crn) => {
-    console.log("----------------------------> " + addedClasses)
     if (addedClasses.includes(crn)) return;
     setAddedClasses([...addedClasses, crn])
+  }
+
+  const onDelete = (crn) => {
+    const newValues = addedClasses.filter(c => {
+      if (c === crn) return false;
+      return true;
+    });
+
+    setAddedClasses(newValues)
   }
 
   return (
     <main className={styles.Main}>
       <div className={styles.Navbar}>
-        <h1 className={caveat.className}>Classabull</h1>
+        <h1 className={caveat.className} style={{fontSize:"38px"}}>Classabull</h1>
       </div>
       <div className={styles.Content}>
 
         <Search onAdd={onAdd} />
 
-        <div className={styles.Schedule}></div>
+        <div className={styles.Schedule}>
+          <Schedule addedClasses={addedClasses} />
+        </div>
 
-        <List addedClasses={addedClasses}/>
+        <List addedClasses={addedClasses} onDelete={onDelete} />
 
       </div>
     </main>

@@ -6,26 +6,25 @@ export const revalidate = 1
 export async function GET(request) {
   console.log(request)
   const { searchParams } = new URL(request.url)
-  const instructor = searchParams.get('instructor').toLowerCase();
+  const title = searchParams.get('title').toLowerCase();
 
   // console.log(JSON.stringify(classes, null, 2))
 
-  const instructors = classList.classes;
+  const titles = classList.classes;
   //console.log(JSON.stringify(classes, null, 2));
 
-  if (!instructor){
+  if (!title){
     return NextResponse.json([])
 
 }
-  var filteredInstructors = instructors.filter(c => {
+  var filteredTitles = titles.filter(c => {
 
-    if (c.instructor.toLowerCase().includes(instructor)) {
+    if (c.title.toLowerCase().includes(title)) {
       return true;
     }
     return false;
   });
 
-  console.log(filteredInstructors)
-
-  return NextResponse.json({ text: filteredInstructor })
+  console.log("AaAAAAAAAAAAAA")
+  return NextResponse.json(filteredTitles);
 }
