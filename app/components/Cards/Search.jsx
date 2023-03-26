@@ -16,7 +16,7 @@ async function getClassbyID(subject, number) {
 }
 
 export default function Search() {
-  const [results, setResults] = useState([])
+  const [results, setResults] = useState({})
   const [searchBy, setSearchBy] = useState('CourseID')
   const [courseSubject, setCourseSubject] = useState('COP')
   const [courseNum, setCourseNum] = useState('')
@@ -26,8 +26,12 @@ export default function Search() {
       const rawResults = await getClassbyID(courseSubject, courseNum);
       const newResults = {}
       rawResults.forEach(r => {
+        if (!(r.title in newResults)) {
+            newResults[r.title] = []
+        }
         newResults[r.title].push(r)
       })
+      setResults(newResults)
     }
     fetchData();
   }, [courseSubject, courseNum])
@@ -41,9 +45,12 @@ export default function Search() {
   }
 
   const renderResults = () => {
-    return results.map(r => {
+    return Object.keys(results).map(key => {
+      const result = results[key]
+      console.log(key)
+      console.log(result)
       return (
-        <SearchResult id={`${r.subject} ${r.courseNumber}`} title={r.title} amount="2" />
+        <SearchResult id={`${result[0].subject} ${result[0].courseNumber}`} title={key} amount="2" />
       )
     })
   }
