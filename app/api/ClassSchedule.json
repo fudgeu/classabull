@@ -61,7 +61,7 @@
                 {
                     "days": ["M", "W"],
                     "startTime": "9:30AM",
-                    "endTime": "10:45PM"
+                    "endTime": "10:45AM"
                 }
             ],
             "tags": [
@@ -84,7 +84,7 @@
                 {
                     "days": ["T", "R"],
                     "startTime": "9:30AM",
-                    "endTime": "10:45PM"
+                    "endTime": "10:45AM"
                 }
             ],
             "tags": [
@@ -1281,29 +1281,6 @@
                     "days": ["M", "W"],
                     "startTime": "5:00PM",
                     "endTime": "6:45PM"
-                }
-            ],
-            "tags": [
-
-            ]
-        },
-
-        {
-            "subject": "MAC",
-            "courseNumber": "2282",
-            "section": "902",
-            "title": "Engineering Calculus II",
-            "crn": "86305",
-            "instructor": "TBA",
-            "instructionMethod": "Classroom",
-            "campus": "Tampa",
-            "room": "CMC 141",
-            "seatCapacity": "55",
-            "schedule": [
-                {
-                    "days": ["M", "W"],
-                    "startTime": "7:00PM",
-                    "endTime": "8:45PM"
                 }
             ],
             "tags": [
