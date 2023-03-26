@@ -13,12 +13,12 @@ export async function GET(request) {
   const instructors = classList.classes;
   //console.log(JSON.stringify(classes, null, 2));
 
+  if (!instructor){
+    return NextResponse.json([])
 
+}
   var filteredInstructors = instructors.filter(c => {
-    if (!instructor){
-            return NextResponse.json([])
 
-    }
     if (c.instructor.toLowerCase().includes(instructor)) {
       return true;
     }
