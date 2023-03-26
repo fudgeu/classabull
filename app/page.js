@@ -11,10 +11,11 @@ const caveat = Caveat({ subsets: ['latin'] })
 
 async function test() {
   console.log("testtttt")
-  await fetch("http://localhost:3000/api/getClassByID?subject=null&num=3")
+  await fetch("http://localhost:3000/api/getClassByTags?tag=cs_elective")
     .then(response => response.text())
     .then(data => console.log(data))
 }
+
 
 export default async function Home() {
   await test();

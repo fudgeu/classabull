@@ -6,7 +6,7 @@ export const revalidate = 1
 export async function GET(request) {
   console.log(request)
   const { searchParams } = new URL(request.url)
-  const subject = searchParams.get('subj')
+  const subject = searchParams.get('subj').toLowerCase()
   const classNumber = searchParams.get('num')
 
   // console.log(JSON.stringify(classes, null, 2))
@@ -18,7 +18,7 @@ export async function GET(request) {
     if (!subject && c.courseNumber.startsWith(classNumber)) {
       return true;
     }
-    if (c.subject.startsWith(subject) && c.courseNumber.startsWith(classNumber)) {
+    if (c.subject.toLowerCase().startsWith(subject) && c.courseNumber.startsWith(classNumber)) {
       return true;
     }
     return false;
