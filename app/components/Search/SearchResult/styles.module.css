@@ -1,0 +1,4 @@
+.SearchResult {
+    display: flex;
+    flex-direction: column;
+}

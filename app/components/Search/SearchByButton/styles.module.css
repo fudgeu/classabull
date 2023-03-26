@@ -1,0 +1,19 @@
+.SearchByButton {
+    all: unset;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: var(--text-color-faded);
+    border: solid 1px var(--border-color)
+}
+
+.SearchByButton:hover {
+    cursor: pointer;
+}
+
+.SearchByButtonSelected {
+    background-color: #3b8b3b;
+    color: #e0ffe0;
+    border: none;
+}

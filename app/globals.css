@@ -41,6 +41,8 @@
 
   --card-background-gradient: linear-gradient(120deg, #666666, #333333);
   --text-color: white;
+  --text-color-faded: #c0c0c0;;
+  --border-color: #333333
 }
 
 @media (prefers-color-scheme: dark) {

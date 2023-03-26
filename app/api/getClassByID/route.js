@@ -6,8 +6,8 @@ export const revalidate = 1
 export async function GET(request) {
   console.log(request)
   const { searchParams } = new URL(request.url)
-  const subject = searchParams.get('subj')
-  const classNumber = searchParams.get('classNumb')
+  const subject = searchParams.get('subj').toLowerCase()
+  const classNumber = searchParams.get('num')
 
   // console.log(JSON.stringify(classes, null, 2))
 
@@ -15,7 +15,10 @@ export async function GET(request) {
   //console.log(JSON.stringify(classes, null, 2));
 
   var filteredClasses = classes.filter(c => {
-    if (c.subject.startsWith(subject)) {
+    if (!subject && c.courseNumber.startsWith(classNumber)) {
+      return true;
+    }
+    if (c.subject.toLowerCase().startsWith(subject) && c.courseNumber.startsWith(classNumber)) {
       return true;
     }
     return false;
@@ -25,5 +28,3 @@ export async function GET(request) {
 
   return NextResponse.json({ text: subject })
 }
-
-

@@ -1,16 +1,18 @@
+'use client'
+
 import styles from './styles.module.css'
 import { clsx } from 'clsx';
-import TextSM from '../Text/TextSM';
+import TextSM from '../../Text/TextSM';
 
-export default function SearchByButton(selected, onSelect, label) {
+export default function SearchByButton({selected, onSelect, label}) {
 
     console.log(`test: ${label}`)
     return (
-        <div className={clsx({
+        <button type="button" onClick={onSelect} className={clsx({
             [styles.SearchByButton]: true,
             [styles.SearchByButtonSelected]: selected
         })}>
             <TextSM>{label}</TextSM>
-        </div>
+        </button>
     )
 }
