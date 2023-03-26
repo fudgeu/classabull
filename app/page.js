@@ -13,7 +13,7 @@ async function test() {
   console.log("testtttt")
   await fetch("http://localhost:3000/api/getClassByID?subj=C")
     .then(response => response.text())
-    .then(data => console.log(data))
+    .then(data => {})
 }
 
 export default async function Home() {
