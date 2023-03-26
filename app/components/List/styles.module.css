@@ -1,0 +1,43 @@
+.AddedClass {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%
+}
+
+.AddedClass:hover {
+  cursor: pointer;
+}
+
+.AddedClassInfo {
+  flex-direction: column;
+}
+
+.ExtraInfoContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.ExtraInfoIndentContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.ExtraInfoIndent {
+  width: 3px;
+  height: 100%;
+  background-color: var(--border-color);
+  border-radius: 10px;
+}
+
+.ExtraInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap:10px;
+  border-radius: 10px;
+}
