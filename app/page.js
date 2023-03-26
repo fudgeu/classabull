@@ -11,7 +11,7 @@ const caveat = Caveat({ subsets: ['latin'] })
 
 async function test() {
   console.log("testtttt")
-  await fetch("http://localhost:3000/api/getClassByID/", { next: { revalidate: 5 } })
+  await fetch("http://localhost:3000/api/getClassByID?subj=C")
     .then(response => response.text())
     .then(data => console.log(data))
 }
