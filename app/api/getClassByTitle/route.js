@@ -15,6 +15,10 @@ export async function GET(request) {
 
 
   var filteredInstructors = instructors.filter(c => {
+    if (!instructor){
+            return NextResponse.json([])
+
+    }
     if (c.instructor.toLowerCase().includes(instructor)) {
       return true;
     }
@@ -23,5 +27,5 @@ export async function GET(request) {
 
   console.log(filteredInstructors)
 
-  return NextResponse.json({ text: instructor })
+  return NextResponse.json({ text: filteredInstructor })
 }

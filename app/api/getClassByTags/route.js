@@ -15,6 +15,9 @@ export async function GET(request) {
 
 
   var filteredtags = tags.filter(c => {
+    if (!tag){
+        return NextResponse.json([])
+    }
     if (c.tags.includes(tag)) {
       return true;
     }
@@ -23,5 +26,5 @@ export async function GET(request) {
 
   console.log(filteredtags)
 
-  return NextResponse.json({ text: tags })
+  return NextResponse.json(filteredtags)
 }
