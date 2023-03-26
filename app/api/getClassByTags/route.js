@@ -12,12 +12,11 @@ export async function GET(request) {
 
   const tags = classList.classes;
   //console.log(JSON.stringify(classes, null, 2));
-
+  if (!tag){
+    return NextResponse.json([])
+}
 
   var filteredtags = tags.filter(c => {
-    if (!tag){
-        return NextResponse.json([])
-    }
     if (c.tags.includes(tag)) {
       return true;
     }

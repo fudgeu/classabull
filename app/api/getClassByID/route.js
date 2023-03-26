@@ -13,10 +13,12 @@ export async function GET(request) {
 
   const classes = classList.classes;
   //console.log(JSON.stringify(classes, null, 2));
-
+  if (subject === "" && classNumber === "")
+  return NextResponse.json([])
   var filteredClasses = classes.filter(c => {
-    if (!subject && !classNumber)
-      return NextResponse.json([])
+    console.log(subject)
+    console.log(classNumber)
+
     if (!subject && c.courseNumber.startsWith(classNumber)) {
       return true;
     }
