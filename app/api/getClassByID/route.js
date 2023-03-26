@@ -26,5 +26,5 @@ export async function GET(request) {
 
   console.log(filteredClasses)
 
-  return NextResponse.json({ text: subject })
+  return NextResponse.json(filteredClasses)
 }

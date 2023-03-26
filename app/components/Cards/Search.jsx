@@ -19,24 +19,31 @@ export default function Search() {
   const [results, setResults] = useState([])
   const [searchBy, setSearchBy] = useState('CourseID')
   const [courseSubject, setCourseSubject] = useState('COP')
-  const [courseNum, setCourseNum] = useState('2030')
+  const [courseNum, setCourseNum] = useState('')
 
   useEffect(() => {
     async function fetchData() {
-      setResults(await getClassbyID(courseSubject, courseNum))
+      const rawResults = await getClassbyID(courseSubject, courseNum);
+      const newResults = {}
+      rawResults.forEach(r => {
+        newResults[r.title].push(r)
+      })
     }
     fetchData();
-  }, [courseSubject])
+  }, [courseSubject, courseNum])
 
   const handleSubjectChange = (event) => {
     setCourseSubject(event.target.value)
   }
 
+  const handleNumberChange = (event) => {
+    setCourseNum(event.target.value)
+  }
+
   const renderResults = () => {
-    console.log(results)
     return results.map(r => {
       return (
-        <SearchResult id={r.subject} title={r.title} amount="2" />
+        <SearchResult id={`${r.subject} ${r.courseNumber}`} title={r.title} amount="2" />
       )
     })
   }
@@ -63,11 +70,22 @@ export default function Search() {
           />
         </div>
         <div className={`${inter.className} ${styles.SearchTextboxContainer}`}>
-          <input type="text" className={`${styles.ClassSubjTextbox}`} placeholder="EGN"></input>
-          <input type="text" className={`${styles.ClassNumberTextbox}`} placeholder="3000"></input>
+          <input 
+            type="text" 
+            className={`${styles.ClassSubjTextbox}`}
+            onChange={handleSubjectChange}
+            placeholder="EGN"
+          />
+          <input 
+            type="text" 
+            className={`${styles.ClassNumberTextbox}`}
+            onChange={handleNumberChange}
+            placeholder="3000" />
         </div>
 
-        {renderResults()}
+        <div className={styles.ResultsContainer}>
+          {renderResults()}
+        </div>
 
       </div>
     </div>

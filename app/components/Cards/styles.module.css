@@ -53,6 +53,15 @@
   color: var(--text-color);
 }
 
+.ResultsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 10px;
+  overflow-y: scroll;
+}
+
+
 .ListCard {
   display: flex;
   background-color: #111111;
