@@ -4,10 +4,20 @@ import styles from './page.module.css'
 import Search from './components/Cards/Search'
 import List from './components/Cards/List'
 
+export const revalidate = 1
+
 const inter = Inter({ subsets: ['latin'] })
 const caveat = Caveat({ subsets: ['latin'] })
 
-export default function Home() {
+async function test() {
+  console.log("testtttt")
+  await fetch("http://localhost:3000/api/getClassByID/", { next: { revalidate: 5 } })
+    .then(response => response.text())
+    .then(data => console.log(data))
+}
+
+export default async function Home() {
+  await test();
   return (
     <main className={styles.Main}>
       <div className={styles.Navbar}>
