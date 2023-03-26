@@ -11,7 +11,7 @@ const caveat = Caveat({ subsets: ['latin'] })
 
 async function test() {
   console.log("testtttt")
-  await fetch("http://localhost:3000/api/getClassByTags?tag=cs_elective")
+  await fetch("http://localhost:3000/api/getClassByCRN?crn=82735")
     .then(response => response.text())
     .then(data => {})
 }
