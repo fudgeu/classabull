@@ -13,7 +13,7 @@ async function test() {
   console.log("testtttt")
   await fetch("http://localhost:3000/api/getClassByTags?tag=cs_elective")
     .then(response => response.text())
-    .then(data => console.log(data))
+    .then(data => {})
 }
 
 

@@ -1,6 +1,6 @@
 .CardBackground {
   display: flex;
-  width: 23%;
+  width: 300px;
   background: var(--card-background-gradient);
   border-radius: 20px;
   padding: 2px;
@@ -16,6 +16,12 @@
   padding: 25px;
 }
 
+.SeachByContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
 .SearchTextboxContainer {
   display: flex;
   flex-direction: row;
@@ -25,20 +31,26 @@
 .ClassSubjTextbox {
   all: unset;
   width: 50px;
-  background-color: white;
-  border-radius: 50px;
+  background-color: #333333;
+  border-radius: 10px;
   padding: 10px;
-  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  color: var(--text-color);
 }
 
 .ClassNumberTextbox {
   all: unset;
-  display: flex;
+  box-sizing: border-box;
+  background-color: #333333;
+  border-radius: 10px;
+  width: 100%;
   padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   flex-grow: 1;
-  background-color: white;
-  border-radius: 50px;
-  color: black;
+  color: var(--text-color);
 }
 
 .ListCard {
