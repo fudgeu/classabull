@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/fudgeu/yuome/blob/main/public/yuome-logo-white.png">
-  <img width="300px" alt="Classabull Logo" src="https://github.com/fudgeu/yuome/blob/main/public/yuome-logo-black.png">
-</picture>
+
 
 ---
 
